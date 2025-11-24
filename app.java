@@ -14,3 +14,15 @@ public class HelloWorld {
 }
 
 //Dev2 Push code from local instance
+public class NumberCheck {
+    public static void main(String[] args) {
+        // Loop from 1 to 5
+        for (int i = 1; i <= 5; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " is Even");
+            } else {
+                System.out.println(i + " is Odd");
+            }
+        }
+    }
+}
